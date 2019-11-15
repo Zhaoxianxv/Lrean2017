@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:width="@dimen/margin_40dp"
+        android:height="@dimen/margin_40dp"/>
+    <gradient
+        android:type="sweep"
+        android:startColor="#00ffffff"
+        android:endColor="#95000000"/>
+
+    <!--android:centerColor="#00ff00"-->
+    <!--android:gradientRadius="180"-->
+    <!--android:angle="90"-->
+    <!--偏移360为一圈-->
+    <!--android:centerX="90"-->
+    <!--android:centerY="90"-->
+    <!-- linear | "radial" | "sweep"]  | "false"] -->
+
+    <!--<stroke    ; 指定边框，border，dashWidth和dashGap有一个为0dp则为实线-->
+    <!--android:width="integer"-->
+    <!--android:color="color"-->
+    <!--android:dashWidth="integer"    ; 虚线宽度-->
+    <!--android:dashGap="integer" />    ; 虚线间隔宽度-->
+
+
+</shape>

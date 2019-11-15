@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zxx.app.drawableBg.DrawableBgActivity">
+
+    <com.zxx.view.SQToolBar style="@style/App_SQToolbar"/>
+    <com.zxx.xlist.xlist.XListView
+        android:id="@+id/drawable_main_xlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.zxx.xlist.xlist.XListView>
+</LinearLayout>

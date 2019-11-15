@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--表示是否处于激活状态-->
+    <item android:state_active="true" />
+    <!--表示是否可勾选-->
+    <item android:state_checkable="true"/>
+    <!--表示是否勾选中-->
+    <item android:state_checked="true"/>
+    <!--表示是否可用-->
+    <item android:state_enabled="true"/>
+    <!--表示是否开始-->
+    <item android:state_first="true"/>
+    <!--表示是否结束-->
+    <item android:state_last="true"/>
+    <!--表示是否得到焦点-->
+    <item android:state_focused="true"/>
+    <!--表示是否处于中间-->
+    <item android:state_middle="true"/>
+    <!--表示是否按下-->
+    <item android:state_pressed="true"/>
+    <!--表示是否选中-->
+    <item android:state_selected="true"/>
+    <!--窗口处于焦点-->
+    <item android:state_window_focused="true"/>
+</selector>

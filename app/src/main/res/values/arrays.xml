@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="String_data">
+        <item>listview 可以直接调数组：android:entries="@array/String数据"</item>
+        <item>listview 可以直接调数组：android:entries="@array/String数据"</item>
+    </string-array>
+    <string-array name="title">
+        <item>ofo</item>
+        <item>qj</item>
+        <item>hl</item>
+        <item>mp</item>
+    </string-array>
+
+    <integer-array name="integer">
+        <item>12</item>
+    </integer-array>
+
+    <array name="res">
+        <item>@drawable/app_title_bg_shape</item>
+    </array>
+</resources>

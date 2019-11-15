@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zxx.app.uploadimage.AddImageActivity">
+
+   <ScrollView
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginLeft="@dimen/margin_10dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/margin_10dp"
+               android:text="加载单图"/>
+           <ImageView
+               android:id="@+id/add_singe_icon"
+               android:layout_width="@dimen/margin_70dp"
+               android:layout_height="@dimen/margin_70dp"
+               android:layout_marginTop="@dimen/margin_10dp"/>
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

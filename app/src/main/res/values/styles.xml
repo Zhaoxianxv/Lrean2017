@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MaterialTheme" parent="MaterialTheme">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/app_base_window_bg</item>
+    </style>
+
+    <!--<item name="android:windowFrame">@null</item> ：Dialog的windowFrame框为无-->
+    <!--<item name="android:windowIsFloating">true</item>：是否浮现在activity之上-->
+
+    <!--<item name="android:windowIsTranslucent">false</item>:是否半透明-->
+
+    <!--<item name="android:windowNoTitle">true</item>:是否显示title-->
+
+    <!--<item name="android:windowBackground">@drawable/dia_bg</item>:设置dialog的背景-->
+    <!--<item name="android:backgroundDimEnabled">false</item>: 背景是否模糊显示-->
+
+    <!--<item name="android:windowEnterAnimation">@anim/base_slide_right_in</item>-->
+    <!--<item name="android:windowExitAnimation">@anim/base_slide_right_out</item>-->
+
+    <!--<item name="android:windowFullscreen">?android:windowNoTitle</item> -->
+    <!-- 是否填充满屏幕，引用android:windowNoTitle 的值 ?android:windowNoTitle，取决于android:windowNoTitle的值-->
+    <!--<item name="android:windowFullscreen">true</item>  :    -->
+
+    <!-- 是否遮盖  -->
+    <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--背景透明-->
+    <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+    <!--  -->
+    <!--<item name="android:backgroundDimEnabled">true</item>-->
+    <!--  -->
+    <!--<item name="android:windowFrame">@null</item>-->
+    <!-- 去掉系统titel-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!-- true:窗口布局不饱满（左右）（浮起） ，false：布局占整个屏 -->
+    <!--<item name="android:windowIsFloating">true</item>-->
+    <!-- 为 Theme 设置透明属性  -->
+    <!--<item name="android:windowIsTranslucent">true</item>-->
+    <!-- 是否遮盖  -->
+    <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--  -->
+    <!--<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+    <!--true:填满屏幕（包含任务栏） 。false：不包含任务栏-->
+    <!--<item name="android:windowFullscreen">false</item>-->
+    <!--not bar-->
+    <style name="Nobar" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <!--沉侵式-->
+    <!--not bar and not column-->
+    <style name="NobarColumn" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <!--app启动activity-->
+    <style name="App_NotBar_Initial" parent="AlertDialog.AppCompat.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/ic_launcher</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+
+    <style name="App_SQToolbar">
+        <item name="android:id">@id/sq_toolbar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_45dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="CommonLoadingProgressBar">
+        <item name="android:layout_width">@dimen/margin_15dp</item>
+        <item name="android:layout_height">@dimen/margin_15dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_10dp</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_loading</item>
+        <item name="android:indeterminateDuration">700</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    
+    <!--按钮styly-->
+    <style name="Toggle_style" parent="@android:style/Widget.CompoundButton">
+        <item name="android:button">@drawable/bg_checked_color_greed_gray</item>
+    </style>
+</resources>

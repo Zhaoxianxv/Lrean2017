@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lrean2017</string>
+    <string name="title_activity_window_backgrunp">WindowBackgrunpActivity</string>
+
+
+    <string name="permission_fail_camere" translatable="false">调用摄像头 权限被拒绝，无法打开相机</string>
+    <string name="permission_fail_album" translatable="false">文件读写 权限被拒绝，无法访问文件</string>
+    <!--upData-->
+
+    <string name="add_preission">当前操作,需要**权限。\n是否添加</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_back">返回</string>
+    <string name="app_delete">删除</string>
+    <string name="app_ok">确定</string>
+
+    <!--vote-->
+    <string name="choice_question">选择题</string>
+    <string name="please">选择题</string>
+    <string name="topic">主题</string>
+    <string name="question">问题</string>
+    <string name="please_edit_content">请输入内容</string>
+    <!--xlist-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!--drawable /widget-->
+    <string name="drawable_orthogon_describe">corners:圆角/stroke:边线/solid:填充色sssss</string>
+    <string name="drawable_edit_describe">edit:inputType \t date:时间输入 \t numbar：numberPassword:
+    numberSigned:numberDecimal:phone </string>
+    <string name="drawable_buttom_describe">buttom:</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="save_signature">Save Signature</string>
+</resources>
