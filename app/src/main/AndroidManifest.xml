@@ -23,9 +23,9 @@
         android:theme="@style/Nobar"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <!-- <activity android:name=".MainActivity"> -->
+         <activity android:name=".MainActivity">
         <!--<activity android:name=".KingActivity">-->
-        <activity android:name="com.zxx.app.sign_nature.SignatureMainActivity">
+        <!--<activity android:name="com.zxx.app.sign_nature.SignatureMainActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
