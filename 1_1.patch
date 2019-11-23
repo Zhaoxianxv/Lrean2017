@@ -1,0 +1,15 @@
+Index: app/src/main/java/com/zxx/lrean2017/KingActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/zxx/lrean2017/KingActivity.java	(date 1574473760000)
++++ app/src/main/java/com/zxx/lrean2017/KingActivity.java	(date 1574475928867)
+@@ -43,6 +43,7 @@
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_king);
+         Log.e(TagFinal.ZXX,"测试个i太湖边");
++        Log.e(TagFinal.ZXX,"测试个i太湖边");
+     }
+ 
+ 
