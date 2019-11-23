@@ -43,6 +43,7 @@ public class KingActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_king);
         Log.e(TagFinal.ZXX,"测试个i太湖边");
+        Log.e(TagFinal.ZXX,"测试个i太湖边");
     }
 
 
