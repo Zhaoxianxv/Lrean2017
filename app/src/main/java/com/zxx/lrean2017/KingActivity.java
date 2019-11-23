@@ -42,9 +42,7 @@ public class KingActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_king);
-        Log.e(TagFinal.ZXX,"测试个i太湖边");
-        Log.e(TagFinal.ZXX,"测试个i太湖边");
-        edit.setText("测试个i太湖边");
+        edit.setText("github");
     }
 
 
